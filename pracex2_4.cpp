@@ -21,8 +21,6 @@ double av(double x,double y){
         return 0;
     }else if (max(x,y)/min(x,y)<=100) {
        return sqrt(x*y);
-    }else
-    {
-        return av(x,(x+y)/2) + av(y,(x+y)/2);
-    }
+    }else return av(x,(x+y)/2) + av(y,(x+y)/2);
+
 }
