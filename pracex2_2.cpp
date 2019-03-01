@@ -1,3 +1,5 @@
+#include<iostream>
+#include<fstream>
 using namespace std;
 
 void sort(float x[], int N){
@@ -15,9 +17,13 @@ void sort(float x[], int N){
 }
 
 int main(){
-	
-	//Write your code here
-	
+	ifstream source("score1.txt");
+	string line;
+	while(getline(source,line)){
+		cout << line << "\n";
+	}
+	source.close();
+
 	return 0;
 }
 

@@ -1,4 +1,6 @@
 #include<iostream>
+#include<cstdlib>
+#include<ctime>
 
 using namespace std;
 char alphabet[8][8];
@@ -21,5 +23,8 @@ void showAlphabet(){
 	}
 }
 
-//Write definition of function randomAlphabet() here.
+void randomAlphabet() {
+	char alphabet[][] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'},
+	
+}
 
